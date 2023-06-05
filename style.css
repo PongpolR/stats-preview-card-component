@@ -13,7 +13,7 @@ body {
 
 .left {
   background-color: hsl(244, 38%, 16%);
-  padding-right: 15rem;
+  padding-right: 150px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   height: 446px;
@@ -25,24 +25,18 @@ body {
   border-bottom-right-radius: 15px;
 }
 
-.header-text, .number {
+.header-text {
   color: hsl(0, 0%, 100%);
-  margin-left: 3rem;
+  margin-left: 4rem;
 }
 
 #highlight-text {
   color: hsl(277, 64%, 61%);
 }
 
-.body-text, .title {
+.body-text {
   color: hsla(0, 0%, 100%, 0.75);
-  margin-left: 3rem;
-}
-
-.number, .title {
-  display: flex;
-  padding-right: 2rem;
-  margin-left: 3rem;
+  margin-left: 4rem;
 }
 
 .header-text {
@@ -54,26 +48,32 @@ body {
 
 .body-text {
   margin-top: 2rem;
-  margin-right: 4rem;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 15px;
 }
 
 .footer-text {
-  margin-top: 4rem;
+  margin-left: 4rem;
+  margin-top: 5rem;
 }
 
 .number {
+  color: hsl(0, 0%, 100%);
   font-family: 'Lexend Deca', sans-serif;
   font-weight: 700;
   font-size: 28px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .title {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
   font-weight: 400;
   font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.6);
+  display: flex;
+  justify-content: space-between;
 }
 
 .body-text div {
